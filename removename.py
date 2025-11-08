@@ -1,0 +1,1 @@
+python<br># 医疗数据匿名化处理（符合《个保法》第4条）<br>def anonymize_data(data):<br>    return data.drop(['patient_id', 'name'], axis=1)
